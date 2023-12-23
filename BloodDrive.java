@@ -690,7 +690,7 @@ public class BloodDrive implements Screen {
 
         timeSurvived += delta;
 
-        // jchung: Start monster slowdown
+        //Start monster slowdown
         if (score > 0 && score % 20 == 0)  {
             monstersSlowed = true;
             speedFactor = 0.5f;
@@ -698,7 +698,7 @@ public class BloodDrive implements Screen {
             delay = 5;
         }
 
-        // jchung: End monster slowdown
+        //End monster slowdown
         monstersSlowedTimer += delta;
         delay -= delta;
         if (monstersSlowedTimer > monstersSlowedDuration) {
