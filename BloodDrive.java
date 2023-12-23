@@ -1,4 +1,4 @@
-//Names: Ez Racancoj, Jodan Elysee, Benigno Ledesma III
+//Jodan Elysee
 package com.blooddrive.game;
 
 import com.badlogic.gdx.Gdx;
